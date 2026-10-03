@@ -984,7 +984,7 @@ numpy==1.26.0
 from lmnr import Laminar, observe
 
 # Initialize at app startup
-Laminar.initialize(project_api_key=config.LAMINAR_API_KEY)
+Laminar.initialize(project_api_key=config.LMNR_PROJECT_API_KEY)
 
 @observe()
 async def identify_person(image_bytes: bytes) -> dict:
@@ -1031,7 +1031,7 @@ class Settings(BaseSettings):
     EXA_API_KEY: str
 
     # Observability
-    LAMINAR_API_KEY: str
+    LMNR_PROJECT_API_KEY: str
 
     # Notifications
     TELEGRAM_BOT_TOKEN: str = ""

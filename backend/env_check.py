@@ -21,7 +21,7 @@ class ServiceCheck:
 _SERVICE_ENV_MAP: dict[str, list[str]] = {
     "convex": ["CONVEX_URL"],
     "exa": ["EXA_API_KEY"],
-    "laminar": ["LAMINAR_API_KEY"],
+    "laminar": ["LMNR_PROJECT_API_KEY"],
     "gemini": ["GEMINI_API_KEY"],
     "browser_use": ["BROWSER_USE_API_KEY"],
     "openai": ["OPENAI_API_KEY"],

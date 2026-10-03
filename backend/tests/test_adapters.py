@@ -47,7 +47,7 @@ def unconfigured_settings() -> Settings:
         _env_file=None,  # type: ignore[call-arg]
         CONVEX_URL=None,
         EXA_API_KEY=None,
-        LAMINAR_API_KEY=None,
+        LMNR_PROJECT_API_KEY=None,
         GEMINI_API_KEY=None,
     )
 
@@ -63,7 +63,7 @@ def configured_settings() -> Settings:
         BROWSER_USE_API_KEY="bu_test_key",
         OPENAI_API_KEY="sk-test",
         GEMINI_API_KEY="gem_test_key",
-        LAMINAR_API_KEY="lam_test_key",
+        LMNR_PROJECT_API_KEY="lam_test_key",
         TELEGRAM_BOT_TOKEN="123:ABC",
         PIMEYES_ACCOUNT_POOL='[{"email":"test@test.com"}]',
     )

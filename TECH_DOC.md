@@ -347,7 +347,7 @@ MONGODB_URI=
 EXA_API_KEY=
 
 # Observability
-LAMINAR_API_KEY=
+LMNR_PROJECT_API_KEY=
 HUD_API_KEY=
 
 # Notifications

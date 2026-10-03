@@ -97,7 +97,7 @@ Copy `.env.example` to `.env` and fill in what you have. Nothing is strictly req
 | `CONVEX_URL` | Backend → Convex writes | Same Convex deployment |
 | `MONGODB_URI` | Persistent storage | [mongodb.com/atlas](https://mongodb.com/atlas) |
 | `TELEGRAM_BOT_TOKEN` | Telegram photo intake | [BotFather](https://t.me/BotFather) |
-| `LAMINAR_API_KEY` | Agent tracing | [lmnr.ai](https://www.lmnr.ai) |
+| `LMNR_PROJECT_API_KEY` | Agent tracing | [lmnr.ai](https://www.lmnr.ai) |
 | `SUPERMEMORY_API_KEY` | Dossier caching | [supermemory.ai](https://supermemory.ai) |
 | `PIMEYES_ACCOUNT_POOL` | Facial recognition search | JSON array of PimEyes accounts |
 
